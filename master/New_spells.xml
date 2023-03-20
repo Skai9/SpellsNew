@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <description>Spells</description>
+    <update version="0.3.3">
+      <file name="New_spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/spells.xml" />
+    </update>
+  </info>
+
+  
+   <element name="Sniper Precision" type="Spell" source="Unearthed Arcana" id="ID_UA_SPELL_Sniper_Precision">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>  For the next minute your eyes see through your enemies defenses what gives you either boost to your spell hit chance by 1d8, or you can upgrade spell damage by adding d12 damage dice.</p>
+      <p class="indent"> upcasting this spell grants double duration for each upcast, 10 minutes on 2th, 20 on 3th, 40 on 4th .</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">5 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  
+  
+  
+</elements>
