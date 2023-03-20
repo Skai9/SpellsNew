@@ -5,7 +5,7 @@
 		<description> Thanks in helping me making HomeBrew Love you.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana">Wizards of the Coast</author>
 		<update version="0.5.4">
-			<file name="New_spells.index" url="https://raw.githubusercontent.com/Skai9/Mystic_spells/main/mystic_spells.index" />
+			<file name="New_spells.index" url="https://raw.githubusercontent.com/Skai9/SpellsNew/main/master/New_spells.index" />
 		</update>
 	</info>
 	<files>
